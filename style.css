@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+*{
+    font-family: "Fredericka the Great", serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    background: rgb(25,44,73);
+    background: linear-gradient(180deg, rgba(25,44,73,1) 0%, rgba(21,24,55,1) 100%);
+}
+
+.logo{
+    text-align: center;
+    font-size: 35px;
+}
+
+i{
+    font-size: 34px;
+    padding: 5px;
+}
+
+.container{
+    margin: 0 auto;
+    width: 50%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(25,44,73,0.75), -5px -5px 15px rgba(21,24,55,0.75);
+}
+
+.all{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+    box-shadow: inset -7px -7px 15px rgba(25,44,73,0.75), inset 7px 7px 15px rgba(21,24,55,0.75);
+    border-radius: 10px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+}
+
+.main ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.main ul li{
+    color: gray;
+}
+
+.fire{
+    background: -webkit-linear-gradient(#f0910f, #c3291d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.you,
+.computer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.you,
+.computer{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.choose{
+    margin: 0 auto;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.player-choose,
+.computer-choose{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset -3px -3px 10px rgba(25,44,73,0.75), inset 3px 3px 10px rgba(25,44,73,0.75);
+    border-radius: 10px;
+}
+
+.model{
+    width: 100%;
+    position: absolute;
+    top: 25%;
+}
+.pop-up{
+    background: rgb(25,44,73);
+    background: linear-gradient(180deg, rgba(25,44,73,1) 0%, rgba(21,24,55,1) 100%);
+    width: 35%;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 5px 7px 15px #ffffff75;
+    display: none;
+
+    
+}
+
+.pop-up h2{
+    text-align: center;
+    margin: 0;
+}
+
+.pop-up p{
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.model button{
+    margin-top: 25px;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 15px rgba(25,44,73,0.75), -5px -5px 15px rgba(21,24,55,0.75);
+}
